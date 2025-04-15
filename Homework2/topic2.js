@@ -86,6 +86,13 @@ else {
         console.log("Incorrect data.")
 }
 
+if((a*a + b*b === c*c) || (b*b+ c*c === a*a) || (c*c + a*a === b*b)) {
+    console.log("The triangle is right-angeled");
+}
+else {
+    console.log("The triangle is not right-angled");
+}
+
 //Task 7
 let date = new Date();
 let currentHour = date.getHours();
