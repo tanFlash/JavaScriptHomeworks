@@ -67,7 +67,7 @@
 
 //     showCourse() {
 //         const currentYear = new Date().getFullYear();
-//         let course = currentYear - this.year;
+//         let course = currentYear - this.year + 1;
 //         if(course < 1 || course > 6)
 //             return "Incorrect data.";
 //         else
